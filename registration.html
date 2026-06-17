@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration | Gyan</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="auth-page">
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 col-md-9">
+          <p>Have any Trouble?</p>
+          <p><a href="tel:+8801234567890"><i class="fas fa-phone"></i>(+880) 1234 567 890</a></p>
+          <p><a href="mailto:gyan@gmail.com"><i class="fas fa-envelope"></i>gyan@gmail.com</a></p>
+        </div>
+        <div class="col-lg-5 col-md-3">
+          <p class="reg"><a href="./registration.html">Register</a> / <a href="./login.html">Login</a></p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./images/logo.png" alt="Gyan logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="./index.html#about-part">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="./index.html#course-part">Our Courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="./index.html#contact-part">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="auth-shell">
+    <div class="container">
+      <div class="auth-wrap">
+        <aside class="auth-hero">
+          <img src="./images/footerlogo.png" alt="Gyan">
+          <h1>Create Account</h1>
+          <p>Join our learning community and access curated training content designed for your growth.</p>
+        </aside>
+        <section class="auth-form-wrap">
+          <h2>Register</h2>
+          <p>Fill in your details to get started.</p>
+          <form class="auth-form" action="#" method="post">
+            <div class="field">
+              <label for="register-name">Full Name</label>
+              <input id="register-name" type="text" name="name" placeholder="Your full name" required>
+            </div>
+            <div class="field">
+              <label for="register-email">Email Address</label>
+              <input id="register-email" type="email" name="email" placeholder="name@example.com" required>
+            </div>
+            <div class="field">
+              <label for="register-phone">Phone Number</label>
+              <input id="register-phone" type="tel" name="phone" placeholder="+880 1234 567 890" required>
+            </div>
+            <div class="field">
+              <label for="register-password">Password</label>
+              <input id="register-password" type="password" name="password" placeholder="Create a password" required>
+            </div>
+            <div class="field">
+              <label for="register-confirm-password">Confirm Password</label>
+              <input id="register-confirm-password" type="password" name="confirm_password" placeholder="Retype your password" required>
+            </div>
+            <button class="auth-btn" type="submit">Create Account</button>
+          </form>
+          <p class="auth-switch">Already have an account? <a href="./login.html">Sign in</a></p>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Copyright <i class="fas fa-copyright"></i> 2018. All rights reserved by <span>GYAN</span></p>
+  </footer>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

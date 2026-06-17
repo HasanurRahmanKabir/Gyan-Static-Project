@@ -1,0 +1,8 @@
+*.exe
+*.zip
+*.msi
+*.dll
+desktop.ini
+node_modules/
+vendor/
+.env
